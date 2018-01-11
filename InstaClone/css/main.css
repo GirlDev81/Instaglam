@@ -1,0 +1,142 @@
+body{
+background:lightgrey;
+}
+
+header{
+background:#E6D5E8;
+text-align:center;
+width:100%;
+position:fixed;
+top: 0;
+left:0;
+}
+
+.nav{
+  position:fixed;
+  top: 0;
+  left:0;
+}
+.nav a{
+text-decoration: none;
+color:black;
+font-size:2em;
+font-family: 'Kaushan Script', cursive;
+}
+
+.nav li{
+display: inline-block;
+padding: 15px;
+}
+
+#search{
+  margin: 0px 150px 0px 150px;
+  padding: 7px 40px;
+  text align:center;
+  font-size: 14px;
+  width:auto;
+  font-weight:300;
+}
+
+.container {
+    background:lightgrey;
+    padding-top: 50px;
+    width: 100%;
+    position:absolute;
+    top:90px;
+    height:1000px;
+}
+
+.card {
+    box-sizing: border-box;
+    background:#FFF;
+    width: 600px;
+    height:792px;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+.card-header{
+  background:#FFD1D6;
+  height:30px;
+  padding:15px;
+}
+
+.img{
+  display:inline-block;
+  height:35px;
+  width:35px;
+  background:#C7D8FF;
+  border-radius:50%;
+  position:relative;
+
+}
+.name {
+  display: inline-block;
+  font-weight:500;
+  font-size: 16px;
+  margin: 20px 20px 60px 10px;
+  position:absolute;
+  bottom:900px;
+}
+
+.content img{
+  width:100%;
+  height:60%;
+}
+
+.footer{
+  padding:15px;
+}
+
+.emojis{
+  padding-bottom: 10px;
+}
+
+.heart, .talk{
+  padding:5px;
+  font-size: 25px;
+}
+
+.likes{
+font-weight:500;
+}
+
+p{
+  padding-bottom: 9px;
+}
+
+.light{
+font-weight:300;
+}
+
+.link{
+  color:#4C7AE8;
+}
+
+.timestamp{
+font-size: 11px;
+color:#A6B8AE;
+}
+
+
+.elip{
+  float: right;
+  padding-right: 10px;
+  color:#000;
+}
+
+input{
+  border: #fff;
+  font-size: 14px;
+  color:#A6B8AE;
+  padding: 6px;
+  width: 80%;
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight:lighter;
+}
+
+.quote{
+  padding-left:200px;
+  font-family: fantasy;
+
+}
